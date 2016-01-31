@@ -34,7 +34,7 @@ function Brush() {
       regex: new RegExp(this.getKeywords(keywords), 'gm'),
       css: 'keyword'
     }
-		];
+	];
 
   this.forHtmlScript(regexLib.aspScriptTags);
 };
