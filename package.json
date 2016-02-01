@@ -1,5 +1,5 @@
 {
-  "name": "brush-vb",
+  "name": "@alexgorbatchev/brush-vb",
   "version": "4.0.0",
   "description": "vb brush module for SyntaxHighlighter.",
   "keywords": [
