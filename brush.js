@@ -1,5 +1,5 @@
 var BrushBase = require('brush-base');
-var regexLib = require('regex-lib');
+var regexLib = require('syntaxhighlighter-regex').commonRegExp;
 
 function Brush() {
   var keywords = 'AddHandler AddressOf AndAlso Alias And Ansi As Assembly Auto ' +
