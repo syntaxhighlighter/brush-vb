@@ -1,11 +1,12 @@
 {
   "name": "brush-vb",
   "version": "4.0.0",
-  "description": "foo brush module for SyntaxHighlighter.",
+  "description": "Visual Basic brush module for SyntaxHighlighter.",
   "keywords": [
     "syntaxhighlighter",
     "brush",
-    "vb"
+    "vb",
+    "visual basic"
   ],
   "homepage": "https://github.com/syntaxhighlighter/brush-vb",
   "bugs": "https://github.com/syntaxhighlighter/brush-vb/issues",
