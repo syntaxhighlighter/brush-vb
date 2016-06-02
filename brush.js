@@ -2,20 +2,7 @@ var BrushBase = require('brush-base');
 var regexLib = require('syntaxhighlighter-regex').commonRegExp;
 
 function Brush() {
-  var keywords = 'AddHandler AddressOf AndAlso Alias And Ansi As Assembly Auto ' +
-    'Boolean ByRef Byte ByVal Call Case Catch CBool CByte CChar CDate ' +
-    'CDec CDbl Char CInt Class CLng CObj Const CShort CSng CStr CType ' +
-    'Date Decimal Declare Default Delegate Dim DirectCast Do Double Each ' +
-    'Else ElseIf End Enum Erase Error Event Exit False Finally For Friend ' +
-    'Function Get GetType GoSub GoTo Handles If Implements Imports In ' +
-    'Inherits Integer Interface Is Let Lib Like Long Loop Me Mod Module ' +
-    'MustInherit MustOverride MyBase MyClass Namespace New Next Not Nothing ' +
-    'NotInheritable NotOverridable Object On Option Optional Or OrElse ' +
-    'Overloads Overridable Overrides ParamArray Preserve Private Property ' +
-    'Protected Public RaiseEvent ReadOnly ReDim REM RemoveHandler Resume ' +
-    'Return Select Set Shadows Shared Short Single Static Step Stop String ' +
-    'Structure Sub SyncLock Then Throw To True Try TypeOf Unicode Until ' +
-    'Variant When While With WithEvents WriteOnly Xor';
+  var keywords = 'GetXMLNamespace NotInheritable NotOverridable RemoveHandler MustOverride MustInherit Overridable AddHandler DirectCast Implements ParamArray RaiseEvent WithEvents AddressOf Interface Namespace Narrowing Overloads Overrides Protected Structure WriteOnly Aggregate Continue Delegate Function Inherits Operator Optional Property ReadOnly SyncLock UInteger Widening Assembly Distinct Explicit Iterator Preserve AndAlso Boolean CUShort Decimal Declare Default Finally GetType Handles Imports Integer MyClass Nothing Partial Private Shadows TryCast Variant Compare IsFalse Unicode CSByte CShort Double ElseIf Friend Global Module MyBase Object Option OrElse Public Resume Return Select Shared Single Static String TypeOf UShort Binary Equals NameOf IsTrue Strict Region Alias ByRef ByVal Catch CBool CByte CChar CDate Class Const CType CUInt CULng EndIf Erase Error Event False GoSub IsNot ReDim SByte Short Throw ULong Using While Async Await Group Order Until Where Yield Byte Call Case CDbl CDec Char CInt CLng CObj CSng CStr Date Each Else Enum Exit GoTo Like Long Loop Next Step Stop True Then Wend When With Ansi Auto From Join Into Skip Take Text And Dim End For Get Let Lib Mod New Not Out REM Set Sub Try Xor Key Mid Off As Do If In Is Me Of On To Or By';
 
   this.regexList = [
     {
